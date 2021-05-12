@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user_exchange_transactions.UserExchangeTransactionsFragment">
+
+    <RadioGroup
+        android:id="@+id/rdGrpTransactionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="94dp">
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rdGrpTransactionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Perform Exchange Transactions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="459dp"
+        tools:layout_editor_absoluteY="854dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Receiver's Name"
+        tools:layout_editor_absoluteX="461dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LBP Amount"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="USD Amount"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <RadioButton
+        android:id="@+id/rdBtnBuyUsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy USD"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <RadioButton
+        android:id="@+id/rdBtnSellUsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sell USD"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Transaction"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

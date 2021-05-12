@@ -1,0 +1,39 @@
+Desktop_Application/exchange-desktop/out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+Backend/venv/
+__pycache__/
+**/.idea/shelf/
+**/.idea/tasks.xml
+**/.idea/workspace.xml
+**/.idea/usage.statistics.xml
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+Web_Application/node_modules
+Web_Application/.pnp
+.pnp.js
+
+# testing
+Web_Application/coverage
+
+# production
+Web_Application/build
+
+# misc
+Web_Application/.DS_Store
+Web_Application/.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

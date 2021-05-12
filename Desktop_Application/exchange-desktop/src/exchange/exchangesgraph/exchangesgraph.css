@@ -1,0 +1,9 @@
+
+.nav-button {
+    -fx-background-color: lightblue;
+    -fx-text-fill:#363945;
+}
+.nav-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: lightblue;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.youssef.navigationdrawer1.ui.user_exchange_transactions.UserExchangeTransactionsFragment"
+        android:label="User Exchange Transactions"
+        tools:layout="@layout/fragment_user_exchange_transactions" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.youssef.navigationdrawer1.ui.fluctuation_graph.FluctuationGraphFragment"
+        android:label="Fluctuation Graph"
+        tools:layout="@layout/fragment_fluctuation_graph" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.youssef.navigationdrawer1.ui.statistics.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>

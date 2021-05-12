@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="com.squareup.retrofit2:adapter-rxjava2:2.2.0" type="repository">
+    <properties maven-id="com.squareup.retrofit2:adapter-rxjava2:2.2.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/adapter-rxjava2-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/retrofit-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okhttp-3.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okio-1.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rxjava-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/adapter-rxjava2-2.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/retrofit-2.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okhttp-3.6.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okio-1.11.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rxjava-2.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/adapter-rxjava2-2.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/retrofit-2.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okhttp-3.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/okio-1.11.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rxjava-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

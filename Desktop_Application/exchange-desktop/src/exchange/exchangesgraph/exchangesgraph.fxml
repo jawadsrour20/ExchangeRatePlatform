@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exchange.exchangesgraph.ExchangesGraph">
+   <children>
+      <LineChart fx:id="lineChart8Weeks" animated="false" layoutX="283.0" layoutY="200.0" style="-fx-background-color: lightblue;" title="Exchange Rates Variation Over the Last 8 Weeks">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <ButtonBar layoutX="300.0" layoutY="380.0" prefHeight="40.0" prefWidth="200.0" />
+      <Button layoutX="283.0" layoutY="615.0" mnemonicParsing="false" onAction="#renderGraph" prefHeight="25.0" prefWidth="500.0" styleClass="nav-button" text="Render">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="buyFluctuation" layoutX="14.0" layoutY="55.0" text="Buy USD Fluctuation has a ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="sellFluctuation" layoutX="16.0" layoutY="110.0" text="Sell USD Fluctuation has a ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

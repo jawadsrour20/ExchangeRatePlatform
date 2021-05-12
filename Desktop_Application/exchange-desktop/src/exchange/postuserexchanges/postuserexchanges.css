@@ -1,0 +1,48 @@
+.root {
+    -fx-background-color: #F0EDE5;
+}
+.header {
+    -fx-font-size: 24;
+}
+.value-label {
+    -fx-font-size: 20;
+}
+.value {
+    -fx-font-size: 18;
+}
+
+.result {
+    -fx-text-fill: red;
+}
+.reset-btn
+{
+    -fx-text-fill: whitesmoke;
+    -fx-background-color: red;
+}
+.reset-btn:hover
+{
+    -fx-background-color: black;
+}
+.reset-btn:hover
+{
+    -fx-background-color: green;
+}
+.reset-btn
+{
+    -fx-text-fill: whitesmoke;
+    -fx-background-color: red;
+}
+.label
+{
+    -fx-text-fill: #363945;
+}
+
+
+.btn {
+    -fx-background-color: lightblue;
+    -fx-text-fill:#363945;
+}
+.btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: lightblue;
+}

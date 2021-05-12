@@ -1,0 +1,25 @@
+.nav-container {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-pref-width: 150px;
+}
+.nav-button {
+    -fx-max-width: 150px;
+    -fx-background-color: white;
+}
+.root {
+    -fx-background-color: #F0EDE5;
+}
+.nav-button {
+    -fx-background-color: lightblue;
+    -fx-text-fill:#363945;
+}
+.nav-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: lightblue;
+}
+
+.nav-button:active {
+    -fx-background-color: white;
+    -fx-text-fill: lightblue;
+}
