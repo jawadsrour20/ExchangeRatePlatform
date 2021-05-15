@@ -15,7 +15,7 @@ import jwt
 app = Flask(__name__)    # created a flask app
 ma = Marshmallow(app)   # used for data serialization
 bcrypt = Bcrypt(app)  # encryption algo used to create hashed passwords for users
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Nofkrz2000@localhost:3306/exchange'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:<Password>@localhost:3306/exchange'
 CORS(app)
 db = SQLAlchemy(app)
 
